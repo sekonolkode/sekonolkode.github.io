@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
 :root {
     --blue: #0056B3;
     --indigo: #6610f2;
@@ -112,6 +113,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 .branding {
     font-size: 14px;
 }
@@ -34097,6 +34099,14 @@ article a:hover {
 
 .tooltip-inner {
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF;
+}
+
+summary::-webkit-details-marker {
+    color: blue;
+}
+
+summary:focus {
+    outline-style: none;
 }
 
 /*# sourceMappingURL=neumorphism.css.map */
