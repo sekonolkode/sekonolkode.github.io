@@ -3,22 +3,22 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tutorial | Go - Pengenalan bahasa pemrograman Golang</title>
+    <title>Tutorial | Go - Program Hello World di Golang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="Sekonol Academy">
     <meta name="author" content="Sekonol">
     <meta name="keywords" content="sekonol, sekonol kode, sekonolkode">
     <meta name="description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Program Hello World di Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta itemprop="name" content="Sekonol Academy">
     <meta itemprop="description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Program Hello World di Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta itemprop="image" content="">
     <meta name="instagram:card" content="product">
     <meta name="instagram:site" content="@sekonolkode">
     <meta name="instagram:title" content="Sekonolkode">
     <meta name="instagram:description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Program Hello World di Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta name="instagram:creator" content="@sekonol">
     <meta name="instagram:image" content="">
     <meta property="fb:app_id" content="214738555737136">
@@ -27,7 +27,7 @@
     <meta property="og:url" content="https://sekonolacademy.com" />
     <meta property="og:image" content="https://photos.app.goo.gl/rVwSvQN72m4sRPjV7" />
     <meta property="og:description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Program Hello World di Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta property="og:site_name" content="Sekonol" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
@@ -129,13 +129,15 @@
                         <div class="row">
                             <div class="col-12 mt-3">
                                 <div class="col-12">
-                                    <dd><a href="pendahuluan.html" class="mb-0 my-1 ">Pendahuluan</a></dd>
-                                    <dd><a href="pengenalan-go.html" class="btn btn-sm primary text-secondary">Pengenalan Go</a></dd>
+                                    <dd><a href="pendahuluan.html">Pendahuluan</a></dd>
+                                    <dd><a href="pengenalan-go.html">Pengenalan Go</a></dd>
                                     <dd><a href="install-go.html">Menginstal Go</a></dd>
                                     <dd><a href="ide-go.html">Intergrated Development
                                             Environtment</a></dd>
                                     <dd><a href="command-go.html">Command</a></dd>
-                                    <dd><a href="hello-world-go.html">Program Hello World</a></dd>
+                                    <dd><a href="hello-world-go.html"
+                                            class="btn btn-sm primary text-secondary text-left">Program Hello World</a>
+                                    </dd>
                                     <dd><a href="komentar-go.html">Komentar</a></dd>
                                 </div>
                             </div>
@@ -144,68 +146,33 @@
                     <div class="col-12 col-lg-9 px-md-0 mb-0 mb-lg-0">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="mb-1 mt-1">Pengenalan Golang</h1>
-                                <p class="mb-0">Golang (atau biasa disebut dengan Go) bahasa pemrograman yang bersifat
-                                    prosedural. Golang merupakan salah satu bahasa pemrograman yang bisa digunakan untuk
-                                    membuat aplikasi console, desktop, web sampai ke mobile.
-                                    Penciptaan bahasa Go didasari bahasa C dan C++, oleh karena itu gaya sintaksnya
-                                    mirip.
-                                </p>
+                                <h1 class="mb-1 mt-1">Program Hello World</h1>
+                                <p class="mb-0">Setelah persiapan instalasi selesai, kita bisa memulai untuk belajar bahasa pemrograman Go, biasanya kita akan membuat sebuah program Hello World untuk permulaan. Program Hello World adalah sebuah program sederhana yang hanya menampilkan tulisan Hello World. Dan pada tutorial ini, kita akan mencoba membuat program Hello World menggunakan Go.</p>
                             </div>
                             <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Sejarah Golang</h3>
-                                <p class="mb-0">Golang dikembangkan di Google oleh Robert Griesemer, Rob Pike, dan Ken
-                                    Thompson pada tahun 2007 dan mulai diperkenalkan ke publik tahun 2009 sebagai bahasa
-                                    program open source. Bahasa program Go didasarkan pada Python, Java dan C++. Secara
-                                    sederhana Go bukan bahasa pemrograman yang bentuknya bebas. Konvensinya menentukan
-                                    banyak detail pemformatan bahkan sampai bagaimana lekukan dan spasi digunakan. Go
-                                    menggunakan type inference dalam deklarasi variabel. Semisal dalam C, variabel
-                                    integer x dapat diatur ke nilai 0 dengan pernyataan.
-                                </p>
+                                <h3 class="mb-0 mt-1">Membuat Project</h3>
+                                <p class="mb-0">Saat pertama kali membuat project dengan Go anda harus perlu mengetikan command go mod pada package atau folder project anda. Ini bertujuan untuk menempatkan beberapa module yang nantinya akan dipakai dalam project anda tersebut. </p>
+                                <img src="img/go-mod.png" class="img-fluid" alt="Command Go Mod">
+                                <p class="mb-0">Jika anda menggunakan GoLand maka proses inisialisasi project bisa dilakukan dengan antarmuka pada IDE tersebut tanpa harus menggunakan CLI dengan mengetikan go mod init lagi. Dan go.mod juga sudah otomatis terbentuk.</p>
+                                <img src="img/go-new-project.png" class="img-fluid my-1" alt="Command Go New Project">
+                                <img src="img/go-new-mod.png" class="img-fluid my-1" alt="Command Go Mod">
+
                             </div>
                             <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Kenapa Belajar Golang?​</h3>
-                                <p class="mb-0">Bahasa yang digunakan dalam Go mudah dimengerti, dinamis, efisien dan
-                                    aman untuk digunakan dalam bentuk bahasa yang statis serta digabungkan dengan bahasa
-                                    lainnya. Itu karena Go dibuat lebih modern dengan dukungan dari multi core dan
-                                    komputasi jaringan. Golang juga sangat populer dari saat perilisannya sampai
-                                    sekarang.
-                                </p>
+                                <h3 class="mb-0 mt-1">Program Hello World</h3>
+                                <p class="mb-0">Sekarang saatnya membuat program Hello World. Dimulai dengan membuat file Go dan kita buat  fungsi sederhana untuk mencetak string Hello World. Tidak ada aturan penamaan file dalam Go seperti pada Java yang tidak boleh ada karakter spesial. Di Golang anda bisa membuat file Go sesuai kemauan anda sendiri, seperti hello-world.go atau hello_world.go.</p>
+                                <img src="img/hello-world.png" class="img-fluid my-1" alt="Hello World">
+                                <img src="img/hello-world-build.png" class="img-fluid my-1" alt="Hello World Build">
+                                <p class="mb-0">Contoh di atas adalah fungsi main yang mencetak karakter Hello World, Jika anda menggunakan GoLand anda bisa mengeksekusi fungsi tersebut dengan tombol run yang berwarna hijau lalu hasil eksekusi nya akan muncul pada panel go Run. </p>
+                                <img src="img/go-terminal.png" class="img-fluid" alt="Hello World Terminal">
+                                <p class="mb-0">Jika anda mau menggunakan CLI atau perintah eksekusinya lewat terminal, atau mungkin jika anda menggunakan IDE selain GoLand seperti Visual Studio Code anda bisa melakukannya dengan command go run hello-world.go                                    .</p>
                             </div>
-                            <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Perusahan yang Menggunakan Golang​</h3>
-                                <p class="mb-0">Sejak perilisannya, beberapa perusahaan layanan IT banyak sekali yang
-                                    melirik untuk mengembangkan Go ke dalam beragam aplikasi yang mereka buat seperti
-                                    contoh :
-                                </p>
-                                <ul>
-                                    <li>Google, menggunakan Go untuk beberapa service nya</li>
-                                    <li>Gojek, hampir semua sistem servicenya menggunakan Go</li>
-                                    <li>Tokopedia, dibangun dengan bahasa pemrograman Perl lalu migrasi ke bahasa
-                                        pemrograman Go di tahun 2015</li>
-                                    <li>Bukalapak, beberapa service menggunakan Golang.</li>
-                                </ul>
-                                <p class="mb-0">Dan masih banyak lagi perusahaan-perusahaan yang menggunakan Golang</p>
+                            
+                            <div class="col-6 mt-4 text-left">
+                                <a href="command-go.html" class="btn btn-sm">Prev << Command Go</a>
                             </div>
-                            <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Kelebihan Go​</h3>
-                                <p class="mb-0">Go memiliki kelebihan dibanding bahasa lainnya, beberapa di antaranya:
-                                </p>
-                                <ul>
-                                    <li>Mendukung konkurensi di level bahasa dengan pengaplikasian cukup mudah</li>
-                                    <li>Mendukung pemrosesan data dengan banyak prosesor dalam waktu yang bersamaan
-                                        (parallel processing)</li>
-                                    <li>Memiliki garbage collector</li>
-                                    <li>Proses kompilasi sangat cepat</li>
-                                    <li>Bukan bahasa pemrograman yang hirarkikal dan bukan strict OOP, memberikan
-                                        kebebasan ke developer perihal bagaimana cara penulisan kode.</li>
-                                    <li>Dependensi dan tooling yang disediakan terbilang lengkap.</li>
-                                    <li>Dukungan komunitas sangat bagus. Banyak tools yang tersedia secara gratis dan
-                                        open source yang bisa langsung dimanfaatkan.</li>
-                                </ul>
-                            </div>
-                            <div class="col-12 mt-4 text-right">
-                                <a href="install-go.html" class="btn btn-sm">Next >> Menginstal Golang</a>
+                            <div class="col-6 mt-4 text-right">
+                                <a href="komentar-go.html" class="btn btn-sm">Next >> Komentar</a>
                             </div>
                         </div>
                     </div>

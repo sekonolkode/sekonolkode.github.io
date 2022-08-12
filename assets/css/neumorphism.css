@@ -34101,12 +34101,5 @@ article a:hover {
     box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #FFFFFF;
 }
 
-summary::-webkit-details-marker {
-    color: blue;
-}
-
-summary:focus {
-    outline-style: none;
-}
 
 /*# sourceMappingURL=neumorphism.css.map */

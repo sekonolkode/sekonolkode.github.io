@@ -3,22 +3,22 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Tutorial | Go - Pengenalan bahasa pemrograman Golang</title>
+    <title>Tutorial | Go - Cara menginstall Go</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="Sekonol Academy">
     <meta name="author" content="Sekonol">
     <meta name="keywords" content="sekonol, sekonol kode, sekonolkode">
     <meta name="description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Cara menginstall Go, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta itemprop="name" content="Sekonol Academy">
     <meta itemprop="description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Cara menginstall Go, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta itemprop="image" content="">
     <meta name="instagram:card" content="product">
     <meta name="instagram:site" content="@sekonolkode">
     <meta name="instagram:title" content="Sekonolkode">
     <meta name="instagram:description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Cara menginstall Go, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta name="instagram:creator" content="@sekonol">
     <meta name="instagram:image" content="">
     <meta property="fb:app_id" content="214738555737136">
@@ -27,7 +27,7 @@
     <meta property="og:url" content="https://sekonolacademy.com" />
     <meta property="og:image" content="https://photos.app.goo.gl/rVwSvQN72m4sRPjV7" />
     <meta property="og:description"
-        content="Tutorial pengenalan bahasa pemrograman Golang, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
+        content="Tutorial Cara menginstall Go, Belajar pemrograman dari Nol, Tutorial Pemrograman, Artikel tentang Pemrograman, Kelas Pemrogramman Fundamental sampai Advanced, Kelas Online dan Offline">
     <meta property="og:site_name" content="Sekonol" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
@@ -129,9 +129,10 @@
                         <div class="row">
                             <div class="col-12 mt-3">
                                 <div class="col-12">
-                                    <dd><a href="pendahuluan.html" class="mb-0 my-1 ">Pendahuluan</a></dd>
-                                    <dd><a href="pengenalan-go.html" class="btn btn-sm primary text-secondary">Pengenalan Go</a></dd>
-                                    <dd><a href="install-go.html">Menginstal Go</a></dd>
+                                    <dd><a href="pendahuluan.html">Pendahuluan</a></dd>
+                                    <dd><a href="pengenalan-go.html">Pengenalan Go</a></dd>
+                                    <dd><a href="install-go.html" class="btn btn-sm primary text-secondary">Menginstal
+                                            Go</a></dd>
                                     <dd><a href="ide-go.html">Intergrated Development
                                             Environtment</a></dd>
                                     <dd><a href="command-go.html">Command</a></dd>
@@ -144,68 +145,85 @@
                     <div class="col-12 col-lg-9 px-md-0 mb-0 mb-lg-0">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="mb-1 mt-1">Pengenalan Golang</h1>
-                                <p class="mb-0">Golang (atau biasa disebut dengan Go) bahasa pemrograman yang bersifat
-                                    prosedural. Golang merupakan salah satu bahasa pemrograman yang bisa digunakan untuk
-                                    membuat aplikasi console, desktop, web sampai ke mobile.
-                                    Penciptaan bahasa Go didasari bahasa C dan C++, oleh karena itu gaya sintaksnya
-                                    mirip.
+                                <h1 class="mb-1 mt-1">Menginstall Golang</h1>
+                                <p class="mb-0">Sebelum belajar pemrograman Golang, kita perlu menginstall installer Go
+                                    nya terlebih dahulu. Untuk dapat mendownload installer Go bisa melalui website
+                                    resminya yaitu <a href="https://go.dev/dl" target="_blank"
+                                        rel="noopener noreferrer">go.dev</a>.
                                 </p>
                             </div>
                             <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Sejarah Golang</h3>
-                                <p class="mb-0">Golang dikembangkan di Google oleh Robert Griesemer, Rob Pike, dan Ken
-                                    Thompson pada tahun 2007 dan mulai diperkenalkan ke publik tahun 2009 sebagai bahasa
-                                    program open source. Bahasa program Go didasarkan pada Python, Java dan C++. Secara
-                                    sederhana Go bukan bahasa pemrograman yang bentuknya bebas. Konvensinya menentukan
-                                    banyak detail pemformatan bahkan sampai bagaimana lekukan dan spasi digunakan. Go
-                                    menggunakan type inference dalam deklarasi variabel. Semisal dalam C, variabel
-                                    integer x dapat diatur ke nilai 0 dengan pernyataan.
+                                <h3 class="mb-0 mt-1">Instalasi Go di Windows</h3>
+                                <p class="mb-0">Setelah mendownload installer Go, jalankan installer tersebut, klik next
+                                    hingga proses instalasi selesai. Secara default jika anda tidak merubah path pada
+                                    saat instalasi, Go akan terinstall di C:\go. Path tersebut secara otomatis akan
+                                    didaftarkan dalam PATH environment variable di laptop anda.
                                 </p>
-                            </div>
-                            <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Kenapa Belajar Golang?​</h3>
-                                <p class="mb-0">Bahasa yang digunakan dalam Go mudah dimengerti, dinamis, efisien dan
-                                    aman untuk digunakan dalam bentuk bahasa yang statis serta digabungkan dengan bahasa
-                                    lainnya. Itu karena Go dibuat lebih modern dengan dukungan dari multi core dan
-                                    komputasi jaringan. Golang juga sangat populer dari saat perilisannya sampai
-                                    sekarang.
-                                </p>
-                            </div>
-                            <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Perusahan yang Menggunakan Golang​</h3>
-                                <p class="mb-0">Sejak perilisannya, beberapa perusahaan layanan IT banyak sekali yang
-                                    melirik untuk mengembangkan Go ke dalam beragam aplikasi yang mereka buat seperti
-                                    contoh :
-                                </p>
+                                <p class="mb-0">Untuk mengecek apakah GO sudah berhasil di install, silahkan buka
+                                    Command Prompt / CMD, eksekusi perintah go version</p>
                                 <ul>
-                                    <li>Google, menggunakan Go untuk beberapa service nya</li>
-                                    <li>Gojek, hampir semua sistem servicenya menggunakan Go</li>
-                                    <li>Tokopedia, dibangun dengan bahasa pemrograman Perl lalu migrasi ke bahasa
-                                        pemrograman Go di tahun 2015</li>
-                                    <li>Bukalapak, beberapa service menggunakan Golang.</li>
+                                    <li>Jika output adalah sama dengan versi Go yang ter-install, menandakan proses
+                                        instalasi berhasil.</li>
+                                    <li>Sering terjadi, command go version tidak bisa dijalankan meskipun instalasi
+                                        sukses. Solusinya bisa dengan restart CMD (tutup CMD, kemudian buka lagi).
+                                        Setelah itu coba jalankan ulang command go version</li>
+                                    <li>Jika masih belum muncul version dari Go nya, coba cek pathnya kembali di
+                                        environment variable pastikan sudah di setup di pathnya</li>
+                                    <img src="img/envi.png" class="img-fluid my-1" alt="Environtment Variable">
+                                    <img src="img/path.png" class="img-fluid my-1" alt="Path Variable">
                                 </ul>
-                                <p class="mb-0">Dan masih banyak lagi perusahaan-perusahaan yang menggunakan Golang</p>
+
                             </div>
                             <div class="col-12 mt-3 mb-1">
-                                <h3 class="mb-0 mt-1">Kelebihan Go​</h3>
-                                <p class="mb-0">Go memiliki kelebihan dibanding bahasa lainnya, beberapa di antaranya:
-                                </p>
+                                <h3 class="mb-0 mt-1">Instalasi Go di MacOS</h3>
+                                <p class="mb-0">Cara termudah instalasi Go di MacOS adalah menggunakan Homebrew. Install
+                                    terlebih dahulu Homebrew (jika belum ada) cara install homebrew ada pada websitenya
+                                    yaitu <a href="https://brew.sh/index_id." target="_blank"
+                                        rel="noopener noreferrer">Homebrew</a></p>
+                                <p class="mb-0">Jika sudah terinstall homebrew nya anda bisa langsung eksekusi perintah
+                                    berikut di terminal </p>
                                 <ul>
-                                    <li>Mendukung konkurensi di level bahasa dengan pengaplikasian cukup mudah</li>
-                                    <li>Mendukung pemrosesan data dengan banyak prosesor dalam waktu yang bersamaan
-                                        (parallel processing)</li>
-                                    <li>Memiliki garbage collector</li>
-                                    <li>Proses kompilasi sangat cepat</li>
-                                    <li>Bukan bahasa pemrograman yang hirarkikal dan bukan strict OOP, memberikan
-                                        kebebasan ke developer perihal bagaimana cara penulisan kode.</li>
-                                    <li>Dependensi dan tooling yang disediakan terbilang lengkap.</li>
-                                    <li>Dukungan komunitas sangat bagus. Banyak tools yang tersedia secara gratis dan
-                                        open source yang bisa langsung dimanfaatkan.</li>
+                                    <li>brew install go</li>
+                                    <li>Tambahkan path binary Go ke PATH environment variable : echo "export
+                                        PATH=$PATH:/usr/local/go/bin" >> ~/.bash_profile kemudian ketikan perintah :
+                                        source ~/.bash_profile</li>
+                                    <li>Jalankan perintah berikut mengecek versi Go : go version</li>
+                                    <li>Jika outputnya adalah sama dengan versi Go yang ter-install, menandakan proses
+                                        instalasi berhasil.</li>
+                                    <li>Jika outputnya bukan versi Go, coba bisa lakukan kembali proses instalasinya
+                                        dari awal </li>
                                 </ul>
                             </div>
-                            <div class="col-12 mt-4 text-right">
-                                <a href="install-go.html" class="btn btn-sm">Next >> Menginstal Golang</a>
+                            <div class="col-12 mt-3 mb-1">
+                                <h3 class="mb-0 mt-1">Instalasi Go di Linux​</h3>
+                                <p class="mb-0">Unduh arsip installer dari <a href="https://go.dev/dl/" target="_blank"
+                                        rel="noopener noreferrer">go.dev</a>, pilih installer untuk Linux yang sesuai
+                                    dengan jenis bit komputer anda. Atau anda juga bisa download lewat CLI dengan
+                                    menggunakan wget atau curl seperti
+                                    <i>wget https://storage.googleapis.com /golang/go1.19.src.tar.gz</i>
+                                </p>
+                                <ul>
+                                    <li>Buka terminal, extract arsip tersebut ke /usr/local</li>
+                                    <li>tar -C /usr/local -xzf go1.19.src.tar.gz</li>
+                                    <li>Tambahkan path binary Go ke PATH environment variable.</li>
+                                    <li>echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc</li>
+                                    <li>source ~/.bashrc</li>
+                                </ul>
+                                <p class="mb-0">Selanjutnya, eksekusi perintah berikut untuk mengetes apakah Go sudah
+                                    terinstal dengan benar go version.</p>
+                                <ul>
+                                    <li>Jika output adalah sama dengan versi Go yang ter-install, menandakan proses
+                                        instalasi berhasil.</li>
+                                    <li>Jika outputnya bukan versi Go, coba bisa lakukan kembali proses instalasinya
+                                        dari awal</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 mt-4 text-left">
+                                <a href="pengenalan-go.html" class="btn btn-sm">Prev << Pengenalan Go</a>
+                            </div>
+                            <div class="col-6 mt-4 text-right">
+                                <a href="ide-go.html" class="btn btn-sm">Next >> Intergrated Development
+                                    Environtment</a>
                             </div>
                         </div>
                     </div>
